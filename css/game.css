@@ -1,0 +1,117 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.mines-pannel {
+    text-align: center;
+    margin: auto;
+}
+
+.time-pannel {
+    text-align: center;
+    margin: auto;
+}
+
+.timer {
+    text-align: center;
+}
+
+.emoji {
+    text-align: center;
+    font-size: x-large;
+    width: 40px;
+    height: 40px;
+    margin-left: 48.5%;
+}
+
+.level-pannel {
+    text-align: center;
+    margin: auto;
+}
+
+.level-pannel button {
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    text-align: center;
+    margin: auto;
+    border: 2px solid grey;
+    background-color: rgb(190, 186, 186);
+    width: 350px;
+    height: 350px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: silver;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    border: 2px solid #fff;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+.revealed {
+    background-color: rgb(161, 150, 150);
+}
+
+.mine {
+    background-color: red;
+}
+
+.lifes {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hints {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hint:hover {
+    cursor: pointer;
+}
+
+.show-hint {
+    background-color: rgb(247, 230, 76);
+}
+
+.safe-clicks {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dead {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    margin: auto;
+    color: red;
+}
+
+.victory {
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 5px;
+    color: yellow;
+}

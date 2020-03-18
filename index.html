@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body oncontextmenu="return false" onload="init(1)">
+    <h1>MINE SWEEPER</h1>
+    <div class="time-pannel">⏰ X <span class="timer">0</span></div>
+    <div class="mines-pannel">💣 X <span class="mines-left"></span></div>
+    <button class="emoji" onclick="init(1)">😃</button>
+    <div class="level-pannel">
+        <button onclick="init(0)">EASY</button>
+        <button onclick="init(1)">MEDIUM</button>
+        <button onclick="init(2)">HARD</button>
+    </div>
+    <div class="lifes"></div>
+    <div class="hints"></div>
+    <div class="safe-clicks">???</div>
+    <div class="board-container"></div>
+    <h3 hidden class="dead">DEAD! &#9760</h3>
+    <h3 hidden class="victory">VICTORY!!! &#127942</h3>
+
+
+</body>
+<script src="js/utils.js"></script>
+<script src="js/game.js"></script>
+
+</html>
